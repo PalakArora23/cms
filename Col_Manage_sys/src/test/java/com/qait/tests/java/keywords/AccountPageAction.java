@@ -7,20 +7,19 @@ public class AccountPageAction extends StudentPageAction{
 		   private double balance;
 
 		   // The constructors (overloaded)
-		   /** Constructs an Account instance with the given number and initial balance of 0 */
+		
 		   public AccountPageAction(int number) {
 		      this.number = number;
 		      this.balance = 0.0;  // "this." is optional
 		   }
-		   /** Constructs an Account instance with the given number and initial balance */
+		 
 		   public AccountPageAction(int number, double balance) {
 		      this.number = number;
 		      this.balance = balance;
 		   }
 
 		   // The public getters/setters for the private instance variables.
-		   // No setter for number because it is not designed to be changed.
-		   // No setter for balance as it is changed via credit() and debit()
+
 		   /** Returns the number */
 		   public int getNumber() {
 		      return this.number;  // "this." is optional

@@ -10,7 +10,7 @@ public class EvaluationPageAction extends StudentPageAction {
 	   private int numCourses;   // Number of courses taken so far
 	   private static final int MAX_COURSES = 30;  // Maximum number of courses taken by student
 	 
-	   /** Constructs a Student instance with the given input */
+
 	   public EvaluationPageAction(String name, String address) {
 	      this.name = name;
 	      this.address = address;
@@ -20,7 +20,7 @@ public class EvaluationPageAction extends StudentPageAction {
 	   }
 	 
 	   // The public getters and setters.
-	   // No setter for name as it is not designed to be changed.
+	
 	   /** Returns the name */
 	   public String getName() {
 	      return this.name;
